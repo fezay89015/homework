@@ -69,6 +69,10 @@ nav li{
 
 
 .login p{
+    justify-content: center;
+    align-items: center;
+    margin: auto 5px;
+    
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -78,6 +82,10 @@ nav li{
 
 
 .join p{
+    justify-content: center;
+    align-items: center;
+    margin: auto 5px;
+    
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -101,6 +109,11 @@ header>ul>li:nth-child(3){
 }
 
 header>ul>li:nth-child(4),header>ul>li:nth-child(5){
+    height: 25px;
+    display: flex;  
+    align-items: center;
+    
+    border: 1px #778A50 solid;
     position: relative;
     top: 3px;
 }
